@@ -835,6 +835,7 @@ var sampleResponse = {
  * Get all stores that match the given query
  */
 exports.findStores = function (query, callback) {
+  console.log("In findStores..");
   var self = this, opts, res, qi, ql, qt;
   opts = {
     act: 'list',

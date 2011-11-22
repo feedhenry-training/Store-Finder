@@ -1,5 +1,5 @@
 var util = require('util');
-var storesController = require('storecontroller.js');
+var storesController = require('./storesController.js');
 
 function formatResult(err, data) {
   var result = {};
