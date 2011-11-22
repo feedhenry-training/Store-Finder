@@ -7,38 +7,32 @@
       value: 'All',
       text: 'All'
     }, {
-      value: 'Mobile Top-up',
-      text: 'Mobile Top-up'
+      value: 'Dolls',
+      text: 'Dolls'
     }, {
-      value: 'Tesco Mobile',
-      text: 'Tesco Mobile'
+      value: 'Trucks',
+      text: 'Trucks'
     }, {
-      value: 'Refuse and Recycling Payments',
-      text: 'Refuse and Recycling Payments'
+      value: 'Cars',
+      text: 'Cars'
     }, {
-      value: 'M50',
-      text: 'M50'
+      value: 'Footballs',
+      text: 'Footballs'
     }, {
-      value: 'World Wide Money',
-      text: 'World Wide Money'
+      value: 'Bikes',
+      text: 'Bikes'
     }, {
-      value: '3V',
-      text: '3V'
+      value: 'Lego',
+      text: 'Lego'
     }, {
-      value: 'Natural Gas Card',
-      text: 'Natural Gas Card'
+      value: 'Books',
+      text: 'Books'
     }, {
-      value: 'Bill Payments',
-      text: 'Bill Payments'
+      value: 'Cards',
+      text: 'Cards'
     }, {
-      value: 'O2 Money',
-      text: 'O2 Money'
-    }, {
-      value: 'Ruby Card',
-      text: 'Ruby Card'
-    }, {
-      value: 'Postfone',
-      text: 'Postfone'
+      value: 'Comics',
+      text: 'Comics'
     }]
   });
   

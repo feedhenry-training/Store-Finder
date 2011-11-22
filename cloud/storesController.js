@@ -423,7 +423,6 @@ var sampleResponse =
       ],
       "products":[
         "Dolls",
-        "Tesco Mobile",
         "Trucks",
         "Cars",
         "Footballs",
@@ -455,7 +454,7 @@ var sampleResponse =
         "51387654"
       ],
       "products":[
-        "Tesco Mobile",
+        "Dolls",
         "Trucks",
         "Cars",
         "Footballs",
@@ -489,7 +488,6 @@ var sampleResponse =
       ],
       "products":[
         "Dolls",
-        "Tesco Mobile",
         "Trucks",
         "Cars",
         "Footballs",
@@ -833,7 +831,7 @@ var sampleResponse =
  * Get all stores that match the given query
  */
 exports.findStores = function (query, callback) {
-  console.log("In findStores..");
+  console.log("In findStores.. query: " + util.inspect(query));
   var self = this, opts, res, qi, ql, qt;
   opts = {
     act: 'list',
