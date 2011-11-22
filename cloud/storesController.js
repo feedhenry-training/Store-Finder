@@ -831,6 +831,7 @@ var sampleResponse =
  * Get all stores that match the given query
  */
 exports.findStores = function (query, callback) {
+  var util = require('util');
   console.log("In findStores.. query: " + util.inspect(query));
   var self = this, opts, res, qi, ql, qt;
   opts = {
