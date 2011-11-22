@@ -1,7 +1,7 @@
 var CONFIG = require("config.js");
 
-var sampleResponse = {
-  "data":[
+var sampleResponse = 
+  [
     {
       "address":[
         "Cappoquin",
@@ -827,9 +827,7 @@ var sampleResponse = {
         "Cards"
       ]
     }
-  ],
-  "status":"ok"
-};
+];
       
 /*
  * Get all stores that match the given query
