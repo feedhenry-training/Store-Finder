@@ -14,6 +14,7 @@ function formatResult(err, data) {
 }
 
 exports.findStores = function(params, callback) {
+  console.log(util.inspect(params, true, null));
   var query = params.query;
   
   // TODO: cache results based on query string  
