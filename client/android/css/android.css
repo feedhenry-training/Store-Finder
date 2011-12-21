@@ -1,0 +1,8 @@
+/* Some android CSS fixes */
+.x-toolbar .x-input-text, .x-toolbar .x-input-search, .x-toolbar .x-input-number {
+	-webkit-box-shadow: none !important;
+}
+
+.x-list {
+	-webkit-box-shadow: none !important;
+}
