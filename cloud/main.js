@@ -24,3 +24,13 @@ exports.findStores = function(params, callback) {
   });
 };
 
+/* 
+This file - config.js - is used to demonstrate the best practice method for allowing configuration information
+to be bundled with the app when it is built, but also allowing the latest version of the configuration to be 
+retrieved by the app from the cloud on start up.
+*/
+exports.getConfig = function(params, callback) {
+  var cfg = require("config.js");
+  return callback(null, {config: cfg.config});
+};
+
