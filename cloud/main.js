@@ -31,7 +31,7 @@ retrieved by the app from the cloud on start up.
 */
 exports.getConfig = function(params, callback) {
   var cfg = require("config.js");
-  console.log("In getConfig, returning: " + util.inspect(cfg));
-  return callback(null, {config: cfg.config});
+  console.log("In getConfig, returning: " + util.inspect(cfg.CONFIG));
+  return callback(null, {config: cfg.CONFIG});
 };
 
