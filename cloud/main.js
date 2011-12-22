@@ -14,7 +14,7 @@ function formatResult(err, data) {
 }
 
 exports.findStores = function(params, callback) {
-  console.log(util.inspect(params.query, true, null));
+  console.log("In findStores, params: " + util.inspect(params.query, true, null));
   var query = params.query;
   
   // TODO: cache results based on query string  
@@ -31,6 +31,7 @@ retrieved by the app from the cloud on start up.
 */
 exports.getConfig = function(params, callback) {
   var cfg = require("config.js");
+  console.log("In getConfig, returning: " + util.inspect(cfg));
   return callback(null, {config: cfg.config});
 };
 
