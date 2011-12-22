@@ -12,7 +12,8 @@
         act: 'findStores',
         req: {
           query: query
-        }
+        }, 
+        secure: false
       }, function (res) {
         if (res && res.status === 'ok') {
           callback(null, res.data);
