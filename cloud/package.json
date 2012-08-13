@@ -2,5 +2,8 @@
   "name": "fh-app",
   "version": "0.1.0",
   "dependencies" : {        
+  },
+  "scripts": {
+    "test" : "node test/tests.js"
   }
 }
