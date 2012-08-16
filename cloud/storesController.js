@@ -1,5 +1,5 @@
-var CONFIG = require("config.js");
-var sampleResponse = require("sampledata.js").sampleResponse;
+var CONFIG = require("./config.js");
+var sampleResponse = require("./sampledata.js").sampleResponse;
       
 /*
  * Get all stores that match the given query
