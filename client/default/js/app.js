@@ -22,11 +22,12 @@
       loadingMask.show();
       console.log('launching app');
       
-      if (Ext.is.Android) {
-        Ext.Anim.override({
-          disableAnimations: true
-        });
-      }
+      // Following section caused a problem with the dropdown selector on Android devices - PH
+      //if (Ext.is.Android) {
+      //  Ext.Anim.override({
+      //    disableAnimations: true
+      //  });
+      //}
       
       this.views.mainView = new this.views.MainView({
         listeners: {
